@@ -1,4 +1,4 @@
-import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from "@material-ui/icons";
+import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined, Title } from "@material-ui/icons";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
