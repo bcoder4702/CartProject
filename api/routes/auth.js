@@ -6,6 +6,12 @@ const jwt = require("jsonwebtoken");
 
 dotenv.config();
 
+
+ router.get("/welcome", async (req, res) => {
+   res.status(200).send("Welcome to auth route");
+ })
+
+
 router.post("/register", async (req, res) => {
   try {
     //encrypt password

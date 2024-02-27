@@ -151,8 +151,8 @@ const Cart = () => {
       )
       .then((res) => {
         console.log(res);
-        alert("Order successful");
-      });
+        // alert("Order successful");
+      }).then(()=> navigate("/placed"));
   };
 
   return (
