@@ -67,37 +67,6 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/product/",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUyNDQ1MzRlNWM1MzJhYjE1MzgwYzQwIiwiZW1haWwiOiJyYWRAbWFpbC5jb20iLCJpYXQiOjE2OTY5MjgwOTJ9.V5tfKwSzWLrCmtUJLis74yT6LAPzTC3pntWqvvsmYL0",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/api/user/cart",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"user",
-						"cart"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "http://localhost:8080/api/user/cart",
 			"request": {
 				"auth": {
